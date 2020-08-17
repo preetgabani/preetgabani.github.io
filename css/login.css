@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    background-color: #111;
+}
+
+.title{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.loginbx{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.loginbx h1{
+    float: left;
+    font-size: 40px;
+    border-bottom: 6px solid;
+    margin-bottom: 50px;
+    padding: 13px 0;
+}
+
+.textbx{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid;
+}
+
+.textbx i{
+    width: 26px;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.textbx input{
+    border: none;
+    outline: none;
+    background: none;
+    color: #fff;
+    width: 80%;
+    float: left;
+    margin: 10px 10px;
+
+}
+
+.btn{
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 30px;
+    background: #fff;
+    color: #333;
+    text-decoration: none;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.loginbx a{
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 30px;
+    background: #fff;
+    color: #333;
+    text-decoration: none;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
